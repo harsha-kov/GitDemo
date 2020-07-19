@@ -21,6 +21,7 @@ public class ExcelRead {
 		XSSFRow row = sheet.getRow(3);
 		XSSFCell cell = row.getCell(1);
 		System.out.println(cell.getCellType());
+		System.out.println("From Asian End");
 	}
 
 }
