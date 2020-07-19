@@ -22,6 +22,7 @@ public class ExcelRead {
 		XSSFCell cell = row.getCell(1);
 		System.out.println(cell.getCellType());
 		System.out.println("From Asian End");
+		System.out.println("Harsha");
 	}
 
 }
